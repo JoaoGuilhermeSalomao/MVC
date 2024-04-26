@@ -59,7 +59,15 @@ O banco de dados desempenha um papel fundamental no projeto "Abandono Zero", imp
 
 
 ### 5.2.1. Integração com o MVC
+A relação do banco de dados com a arquitetura Modelo-Visão-Controlador (MVC) é fundamental para o funcionamento e a estruturação do sistema.
+#### 5.2.1.1. Model
+É a camada que interage diretamente com o banco de dados para realizar operações como consultas, inserções, atualizações e exclusões, mapeando os objetos de domínio da aplicação para as tabelas do banco de dados e vice-versa, garantindo a consistência e a integridade dos dados.
 
+#### 5.2.1.2. Controller
+Em relação ao banco de dados, o Controlador pode iniciar operações de leitura ou escrita no Modelo com base nas ações do usuário, como submissão de formulários ou cliques em botões.
+
+#### 5.2.1.3. View
+Não interage diretamente com o banco de dados, pois seu papel é apenas exibir os dados fornecidos pelo Modelo de uma maneira que seja compreensível para o usuário mas pode fazer solicitações ao Controlador para obter dados específicos a serem exibidos.
 
 # 6. Recursos Adicionais:<br> 
 Documentação do Sails.js: https://github.com/balderdashy/sails <br> 
