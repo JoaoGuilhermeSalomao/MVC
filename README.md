@@ -14,7 +14,7 @@ Abandono Zero
 # 2. MVC
 
 <div align="center">
-<sub>Figura 1 - Imagem INSPA</sub>
+<sub>Figura 1 - Imagem Modelo MVC</sub>
 <img src="MVC.drawio.png" width="100%" height="auto">
 <sup>Fonte: Material produzido pelos autores (2024)</sup>
 </div>
